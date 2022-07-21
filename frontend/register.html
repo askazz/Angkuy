@@ -27,18 +27,16 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo-circle.png" width="50" />
+          <img src="img/logo-dark.png" width="30" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-sm-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="index.html">Beranda</a>
-            <a class="nav-link" href="index.html#about">Tentang</a>
-            <a class="nav-link" href="lomba.html">Lomba</a>
-            <a class="btn btn-outline-light tombol" href="login.html">Masuk</a>
-            <a class="btn btn-warning tombol" href="register.html">Daftar</a>
+            <a class="btn btn-outline-dark tombol my-1" href="index.html">Beranda</a>
+            <a class="btn btn-outline-dark tombol my-1" href="index.html#about">Tentang</a>
+            <a class="btn btn-outline-dark tombol my-1" href="angkot.html">Angkot</a>
           </div>
         </div>
       </div>
@@ -51,14 +49,9 @@
         <h4 class="d-flex justify-content-center py-3">Daftar Akun</h4>
         <form action="">
           <div class="row user-details">
-            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-              <label for="name-user">Nama Instansi</label>
+            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+              <label for="name-user">Nama</label>
               <input type="text" class="form-control" id="name-user" placeholder="Masukkan nama instansi" required="" />
-            </div>
-
-            <div class="form-group col-lg-6 col-md-6 col-sm-12">
-              <label for="phone-num">Nomor Telepon</label>
-              <input type="text" class="form-control" id="phone-num" placeholder="Masukkan nomor telepon" required="" />
             </div>
 
             <div class="form-group col-lg-12 col-md-12 col-sm-12">
@@ -66,14 +59,19 @@
               <input type="text" class="form-control" id="email" placeholder="Masukkan email" required="" />
             </div>
 
-            <div class="form-group col-lg-12 col-md-12 col-sm-12">
+            <div class="form-group col-lg-6 col-md-6 col-sm-12">
               <label for="password">Password</label>
               <input type="password" class="form-control" id="password" placeholder="Masukkan password" required="" />
+            </div>
+
+            <div class="form-group col-lg-6 col-md-6 col-sm-12">
+              <label for="password">Konfirmasi Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Masukkan konfirmasi password" required="" />
             </div>
           </div>
 
           <div class="button">
-            <button type="button" class="btn btn-warning">Daftar</button>
+            <button type="button" class="btn btn-dark">Daftar</button>
           </div>
         </form>
 
